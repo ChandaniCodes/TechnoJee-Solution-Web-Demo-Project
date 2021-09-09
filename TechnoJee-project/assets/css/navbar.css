@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+#nav-header {
+  width: 100%;
+  background-color: #0d2d3e;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-default {
+  background-color: #fff !important;
+  border: none !important;
+  position: sticky;
+  top: 0;
+}
+#nav-header a {
+  color: #fff;
+}
+.social-icons {
+  position: relative;
+}
+.social-icons span {
+  position: absolute;
+  right: 0px;
+}
+.social-icons span .fab {
+  padding: 0px 10px 0px 10px;
+}
+@media only screen and (max-width: 320px) {
+  .navbar-brand {
+    font-size: 13px;
+  }
+  .support-area {
+    text-align: center;
+  }
+  #nav-header {
+    padding-bottom: 40px;
+  }
+  .social-icons span {
+    padding-top: 10px;
+    position: absolute;
+    right: 20%;
+  }
+  .custom-header {
+    font-size: 10px !important;
+  }
+}

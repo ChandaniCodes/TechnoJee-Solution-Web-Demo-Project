@@ -1,0 +1,49 @@
+#contact-us {
+  width: 100%;
+
+  padding-bottom: 30px;
+}
+.back-img {
+  height: 250px;
+  width: 100%;
+  background-image: url('../images/img4.jpg');
+  color: #fff;
+
+  font-size: 50px;
+  font-family: 'Delius', cursive;
+  font-weight: 600;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.back-color {
+  height: 250px;
+  width: 100%;
+  background-color: rgba(13, 45, 62, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 20px;
+  margin-top: 20px;
+}
+.send-msg-btn {
+  height: 40px;
+  margin-top: 20px;
+  background-color: #ff2143;
+  border-radius: 1px !important;
+  color: #fff;
+  padding-left: 20px !important ;
+  padding-right: 20px !important ;
+}
+.send-msg-btn:hover {
+  color: #ffb3b3;
+}
+.office-address,
+.office-heading {
+  color: #000080;
+}
+.pd {
+  margin-top: 20px;
+}

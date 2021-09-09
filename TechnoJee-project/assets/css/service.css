@@ -1,0 +1,9 @@
+.about-box {
+  background-color: #330066 !important;
+}
+.back-img {
+  background-image: url('../images/img-1.jpg');
+}
+.back-color {
+  background-color: rgba(13, 45, 62, 0.8);
+}
